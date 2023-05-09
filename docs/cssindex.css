@@ -1,0 +1,118 @@
+body{
+  background-color:beige;
+  margin-left: 20px;
+  margin-right:30px;
+  text-align: justify;
+}
+
+p {font-family:Arial;}
+h1 {font-family:Bahnschrift;}
+h2 {font-family:Bahnschrift;}
+div {font-family:Arial;}
+
+      
+.topnav {
+  overflow: hidden;
+  background-color:beige;
+  font-family: Bahnschrift;
+}
+
+.topnav a {
+  float:left;
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  width:31.15%;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color:white;
+  color:black;
+} 
+
+.buttons {
+  win-width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 55px;
+  height: 55px;
+  line-height: 60px;
+  text-align: center;
+  background:grey;
+  color:beige;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px black;
+  transition: all, 0s ease-in-out;
+}
+
+.buttons a:hover {
+  transform:scale(1.0);
+  background: darkgrey;
+  color:white;
+}
+
+.column.side {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenedor {
+  position: relative;
+  flex-basis: 25%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.pestaña {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  transition: transform 0.3s ease-out;
+  transform: translateY(50px);
+  font-family:Bahnschrift;
+}
+
+a:hover .pestaña {
+  transform: translateY(0);
+}
+
+
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+}
+
+.scroll-to-top {
+  display: block;
+  background-color:green;
+  color: red;
+  padding: 10px 20px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.scroll-to-top:hover {
+  opacity: 1;
+}
