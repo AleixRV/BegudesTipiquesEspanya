@@ -1,0 +1,44 @@
+body{
+  background-color:beige;
+  margin-left: 20px;
+  margin-right:30px;
+  text-align: justify;
+}
+  p {font-family:Arial;}
+  h1 {font-family:Bahnschrift;}
+  h2 {font-family:Bahnschrift;}
+  h3 {font-family:Arial; text-align:Left;}
+  div {font-family:Arial;}
+      
+
+.column.side{
+  float:left;
+  width: 99%;
+  text-align:justify;
+  margin: 7px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+}
+
+.scroll-to-top {
+  display: block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.scroll-to-top:hover {
+  opacity: 1;
+}
