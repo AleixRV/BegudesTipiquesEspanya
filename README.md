@@ -14,7 +14,9 @@ apartats, s’han utilitzat els elements adequats per representar la informació
 
 **4. Web responsive**
 Explica cóm ha fet (alguna tècnica) per a que la seva web
-s’adapti a diferents dispositius. Resolució de les imatges, etc
+s’adapti a diferents dispositius. Resolució de les imatges, etc 
+
+El "width" en % de manera que s'adapta als dispositius
 
 **5. Cartografia**
 Cóm s’han integrat i elaborat els mapes que apareixen a la web.
