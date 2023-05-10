@@ -13,10 +13,9 @@ apartats, s’han utilitzat els elements adequats per representar la informació
 (taules, diagrames
 
 **4. Web responsive**
-Explica cóm ha fet (alguna tècnica) per a que la seva web
-s’adapti a diferents dispositius. Resolució de les imatges, etc 
-
-El "width" en % de manera que s'adapta als dispositius
+Perquè la meva pàgina web sigui responsive he utilitzat la propietat CSS 'width' amb percentatges en lloc de valors fixos, això és perquè vull que la pàgina s'adapti automàticament a la mida de la pantalla del dispositiu en què es està visualitzant.
+En establir una amplada en percentatges, els elements s'ajusten automàticament a la mida de la finestra del navegador, cosa que garanteix que la pàgina es vegi bé en diferents dispositius, com ara ordinadors d'escriptori, tauletes o telèfons mòbils.
+Daquesta manera, els usuaris poden navegar fàcilment per la pàgina i trobar la informació que necessiten sense haver de fer zoom o desplaçar-se horitzontalment, cosa que millora significativament lexperiència de lusuari i laccessibilitat del lloc web.
 
 **5. Cartografia**
 Cóm s’han integrat i elaborat els mapes que apareixen a la web.
