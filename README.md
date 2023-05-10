@@ -20,7 +20,10 @@ En establir una amplada en percentatges, els elements s'ajusten automàticament 
 Daquesta manera, els usuaris poden navegar fàcilment per la pàgina i trobar la informació que necessiten sense haver de fer zoom o desplaçar-se horitzontalment, cosa que millora significativament lexperiència de lusuari i laccessibilitat del lloc web.
 
 **5. Cartografia:**
-Cóm s’han integrat i elaborat els mapes que apareixen a la web.
+En aquest cas he afegit un mapa interactiu utilitzant la llibreria Leaflet a una pàgina web.
+Primer s'importen els estils i la llibreria de Leaflet a la secció de capçalera HTML. A continuació, es defineixen els estils CSS per assegurar-se que el mapa ocupi tota l'amplada i l'alçada de la pantalla.
+Després, s'inclouen les coordenades i els marcadors del mapa en un arranjament a la secció de script. Cada marcador té la vostra pròpia etiqueta emergent per mostrar informació rellevant.
+Finalment, es defineix el mapa en si mateix, se li assignen les capes base i les adreces d'interès, s'afegeixen controls i es mostra a la pàgina.
 
 **6. Dificultats/millores:**
 Reflexiona proactivament sobre el producte elaborat.
