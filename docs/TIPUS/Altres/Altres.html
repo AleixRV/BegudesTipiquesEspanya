@@ -48,11 +48,8 @@ L.marker(coords[4]).bindPopup("<b>Comunitat Valenciana:</b><br>Orxata").addTo(pn
 L.marker(coords[5]).bindPopup("<b>Comunitat Valenciana:</b><br>Aigua de València").addTo(pnt);
 L.marker(coords[6]).bindPopup("<b>Menorca:</b><br>Pomada").addTo(pnt);
 
-// Line
-let line = L.polyline(coords, {color: "red", weight: 0}).bindPopup("Travel Path");
-
 // Map
-let map = L.map('map', {center: [40, -3], zoom: 6, layers: [osm, pnt, line]});
+let map = L.map('map', {center: [40, -3], zoom: 6, layers: [osm, pnt]});
 
 let overlayMaps = {
     "Sites": pnt,
