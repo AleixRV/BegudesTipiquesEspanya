@@ -15,7 +15,7 @@ Cada pàgina, ja sigui la principal o les secundàries, disposa d'un document cs
 Per representar tota la informació s'han utilitzat diferents mapes i fotografies que descriuen de forma clara el contingut de cada apartat, a més, de diferents dissenys de taules i d'organització de la pàgina web perquè sigui fàcil i còmode desplaçar-s'hi.
 
 **4. Web responsive:**
-Perquè la meva pàgina web sigui responsive he utilitzat la propietat CSS 'width' amb percentatges en lloc de valors fixos, això és perquè vull que la pàgina s'adapti automàticament a la mida de la pantalla del dispositiu en què es està visualitzant.
+Perquè la meva pàgina web sigui responsive he expresat la propietat CSS 'width' i 'padding' en percentatges en lloc de valors fixos, això és perquè vull que la pàgina s'adapti automàticament a la mida de la pantalla del dispositiu en què es està visualitzant.
 En establir una amplada en percentatges, els elements s'ajusten automàticament a la mida de la finestra del navegador, cosa que garanteix que la pàgina es vegi bé en diferents dispositius, com ara ordinadors d'escriptori, tauletes o telèfons mòbils.
 Daquesta manera, els usuaris poden navegar fàcilment per la pàgina i trobar la informació que necessiten sense haver de fer zoom o desplaçar-se horitzontalment, cosa que millora significativament lexperiència de lusuari i laccessibilitat del lloc web.
 
