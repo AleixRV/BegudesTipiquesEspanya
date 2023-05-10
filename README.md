@@ -1,7 +1,7 @@
 ## Begudes típiques d'Espanya ## 
 
 **1. Tema/motivació:**
-L'objectiu per dur a terme aquesta pàgina web va ser l'aprenentatge i la informació sobre la gastronomia estatal. Aquest és un tema que em crida basatant l'atenció i vaig creure que podia extrapolar-lo a la pàgina web, per una banda tenia la curiositat per aprendre i conèixer quines eren les begudes típiques de cada zona d'Espanya i per l'altra volia reunir aquesta informació en un únic lloc, per a què tothom a qui li interessés ho pogués consultar. A tot això li sumem una base cartogràfica, on podem observar cada tipus de beguda segons el seu origen, que ens ajuda a entendre i situar-nos a cada lloc. 
+L'objectiu per dur a terme aquesta pàgina web va ser l'aprenentatge i la informació sobre la gastronomia estatal. Aquest és un tema que em crida bastant l'atenció i vaig creure que podia extrapolar-lo a la pàgina web, per una banda tenia la curiositat per aprendre i conèixer quines eren les begudes típiques de cada zona d'Espanya i per l'altra volia reunir aquesta informació en un únic lloc, per a què tothom a qui li interessés ho pogués consultar. A tot això li sumem una base cartogràfica, on podem observar cada tipus de beguda segons el seu origen, que ens ajuda a entendre i situar-nos a cada lloc. 
 
 **2. Dades/continguts:** 
 Tota la informació, dades i fotografies que podem observar a la pàgina web han estat tretes d'internet, tant de pàgines oficials, com vlogs, pàgines informatives etc.
