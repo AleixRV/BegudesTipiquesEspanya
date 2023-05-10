@@ -51,11 +51,8 @@ L.marker(coords[6]).bindPopup("<b>Extremadura:</b><br>Ruiz Torres").addTo(pnt);
 L.marker(coords[7]).bindPopup("<b>La Rioja:</b><br>Olarra").addTo(pnt);
 L.marker(coords[8]).bindPopup("<b>Aragó:</b><br>Batán de Salas de Beroz").addTo(pnt);
 
-// Line
-let line = L.polyline(coords, {color: "red", weight: 0}).bindPopup("Travel Path");
-
 // Map
-let map = L.map('map', {center: [40, -3], zoom: 6, layers: [osm, pnt, line]});
+let map = L.map('map', {center: [40, -3], zoom: 6, layers: [osm, pnt]});
 
 let overlayMaps = {
     "Sites": pnt,
