@@ -26,6 +26,6 @@ Després, s'inclouen les coordenades i els marcadors del mapa en un arranjament 
 Finalment, es defineix el mapa en si mateix, se li assignen les capes base i les adreces d'interès, s'afegeixen controls i es mostra a la pàgina.
 
 **6. Dificultats/millores:**
-Personalment crec que ens hagués anat bé, al llarg de l'assignatura, anar fent petites pràctiques que contessin un 5% o 10% de l'assignatura per anar practicant el que hem anat fent cada semana. D'aquesta manera crec que haguéssim entès millor l'estructura d'una pàgina web.  
+En la meva opinió crec que ens hagués anat bé, al llarg de l'assignatura, anar fent petites pràctiques que contessin un 5% o 10% de l'assignatura per anar practicant el que hem anat fent cada semana. D'aquesta manera crec que haguéssim entès millor l'estructura d'una pàgina web. Personalment també he tingut algún problema per penjar la web a Github.
 
 **7. Preguntes**
