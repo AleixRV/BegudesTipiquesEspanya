@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Altres</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/leaflet.css">
+    <script src="js/leaflet.js"></script>
+    <style>
+        body{ padding: 0;
+      margin: 0;
+        }
+        html, body, #map {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+   
+   <a href="../../index.html">
+   <img src="css/images/logo.jpg" alt="Logo de la empresa" width="150px"></a>
+
+    <div id="map"></div>
+    <script>
+
+// Tile layer
+let osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'});
+
+// Coordinates array (lat-lon)
+coords = [
+    [43.3613953, -5.8593267],
+    [37.3399964, -4.5811614],
+    [42.72865305, -1.97383746697463],
+    [41.8204600, 1.8676800],
+    [39.66975, -0.37739],
+    [39.26975, -0.37739],
+    [39.8629, 4.2202]
+
+];
+
+// Markers
+let pnt = L.layerGroup();
+L.marker(coords[0]).bindPopup("<b>Astúries:</b><br>Sidra<br><img src='../../CA/Astúries/Sidra.jpg' width='150px'>").addTo(pnt);
+L.marker(coords[1]).bindPopup("<b>Andalusia:</b><br>Tinto de Verano<br><img src='../../CA/Andalusia/Tinto.jpg' width='150px'>").addTo(pnt);
+L.marker(coords[2]).bindPopup("<b>País Vasc:</b><br>Txakolí<br><img src='../../CA/País Vasc/Txakolí.jpg' width='150px'>").addTo(pnt);
+L.marker(coords[3]).bindPopup("<b>Catalunya:</b><br>Vermut<br><img src='../../CA/Catalunya/Vermut.jpg' width= '150px'>").addTo(pnt);
+L.marker(coords[4]).bindPopup("<b>Comunitat Valenciana:</b><br>Orxata<br><img src='../../CA/Comunitat Valenciana/Horchata.jpg' width='150px'>").addTo(pnt);
+L.marker(coords[5]).bindPopup("<b>Comunitat Valenciana:</b><br>Aigua de València<br><img src='../../CA/Comunitat Valenciana/Aigua.jpg' width='150px'>").addTo(pnt);
+L.marker(coords[6]).bindPopup("<b>Menorca:</b><br>Pomada<br><img src='../../CA/Illes Balears/Pomada.jpg' width='150px'>").addTo(pnt);
+
+// Map
+let map = L.map('map', {center: [40, -3], zoom: 6, layers: [osm, pnt]});
+
+let overlayMaps = {
+    "Sites": pnt,
+    "Travel Path": line
+};
+L.control.layers(baseMaps, overlayMaps, {position: "topleft", collapsed: false}).addTo(map);
+
+    </script>
+</body>
+</html>
