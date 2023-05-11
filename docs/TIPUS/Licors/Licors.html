@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Licors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/leaflet.css">
+    <script src="js/leaflet.js"></script>
+    <style>
+        body{ padding: 0;
+      margin: 0;
+        }
+        html, body, #map {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+   
+   <a href="../../index.html">
+   <img src="css/images/logo.jpg" alt="Logo de la empresa" width="150px"></a>
+
+    <div id="map"></div>
+    <script>
+
+// Tile layer
+let osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'});
+
+// Coordinates array (lat-lon)
+coords = [
+    [37.3399964, -4.5811614],
+    [42.6953909, -1.6760691],
+    [42.7550800, -7.8662100],
+    [41.8204600, 1.8676800],
+    [40.4165, -3.70256],
+    [39.6099200, 3.0294800],
+    [43.1595664, -4.0878382],
+    [37.98704, -1.13004],
+    [41.5976275, -0.9056623],
+    [39.26975, -0.37739],
+    [39.66975, -0.37739]
+];
+
+// Markers
+let pnt = L.layerGroup();
+L.marker(coords[0]).bindPopup("<b>Andalusia:</b><br>Brandi<br><img src='../../CA/Andalusia/Brandi.jpg' width='150px'>").addTo(pnt);
+L.marker(coords[1]).bindPopup("<b>Navarra:</b><br>Patxaran<br><img src='../../CA/Navarra/pat.jpg' width='150px'>").addTo(pnt);
+L.marker(coords[2]).bindPopup("<b>Galícia:</b><br>Queimada<br><img src='../../CA/Galícia/Queimada.jpg' width='150px'>").addTo(pnt);
+L.marker(coords[3]).bindPopup("<b>Catalunya:</b><br>Crema Catalana<br><img src='../../CA/Catalunya/Crema.jpg' width='150px'>").addTo(pnt);
+L.marker(coords[4]).bindPopup("<b>Madrid:</b><br>Xinxó<br><img src='../../CA/Madrid/Ampolla.jpg' width='150px'>").addTo(pnt);
+L.marker(coords[5]).bindPopup("<b>Mallorca:</b><br>Palo de Mallorca<br><img src='../../CA/Illes Balears/Palo.jpg' width='150px'>").addTo(pnt);
+L.marker(coords[6]).bindPopup("<b>Cantàbria:</b><br>Orujo de Liébana<br><img src='../../CA/Cantàbria/Orujo.jpeg' width='150px'>").addTo(pnt);
+L.marker(coords[7]).bindPopup("<b>Múrcia:</b><br>Licor 43<br><img src='../../CA/Múrcia/43.jpg' width='150px'>").addTo(pnt);
+L.marker(coords[8]).bindPopup("<b>Aragó:</b><br>Ratafia<br><img src='../../CA/Aragó/Ratafia.jpg' width='150px'>").addTo(pnt);
+L.marker(coords[9]).bindPopup("<b>Comunitat Valenciana:</b><br>Cassalla<br><img src='../../CA/Comunitat Valenciana/Cassalla.jpg' width='150px'>").addTo(pnt);
+L.marker(coords[10]).bindPopup("<b>Comunitat Valenciana:</b><br>Licor Cafè<br><img src='../../CA/Comunitat Valenciana/Cafe.jpg' width='150px'>").addTo(pnt);
+
+// Map
+let map = L.map('map', {center: [40, -3], zoom: 6, layers: [osm, pnt]});
+
+let overlayMaps = {
+    "Sites": pnt,
+    "Travel Path": line
+};
+L.control.layers(baseMaps, overlayMaps, {position: "topleft", collapsed: false}).addTo(map);
+
+    </script>
+</body>
+</html>
